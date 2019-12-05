@@ -1,0 +1,77 @@
+#deneme {
+    background-color: #34495e;
+}
+
+.title1 {
+    background-color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+#r1 {
+    margin-bottom: 80px;
+}
+
+.you,
+.com {
+    font-size: 30px;
+    padding: 25px;
+    color: #34495e;
+    font-weight: bold;
+    background-color: rgb(185, 116, 127);
+    border: 1px solid rgb(185, 116, 127);
+    border-radius: 20px;
+}
+
+#score {
+    font-size: 30px;
+    padding: 25px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(207, 23, 54);
+    border: 1px solid rgb(207, 23, 54);
+    border-radius: 20px;
+}
+
+.bn {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    margin-right: 30px;
+    margin-top: 5%;
+    color: #34495e;
+}
+
+.bn:hover {
+    color: white;
+    background-color: #34495e;
+    border-color: white;
+}
+
+#challenge .far {
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    color: #34495e;
+    padding: 20px;
+}
+
+#challenge span {
+    font-size: 50px;
+    border: 1px solid rgb(185, 116, 127);
+    background-color: rgb(185, 116, 127);
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #000;
+}

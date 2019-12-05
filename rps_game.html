@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/rps.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Alfa Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!-- Alfa Font -->
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+
+<body id="deneme">
+    <div class="container-fluid">
+        <div id="r1" class="row text-center mt-5">
+            <div class="col-md-8 mx-auto">
+                <h1 class="title1 mb-5">ROCK PAPER SCISSOR GAME</h1>
+                <h2 class="title2">HTML | CSS | JAVASCRIPT</h2>
+            </div>
+        </div>
+        <div id="r2" class="row text-center">
+            <div class="col-md-12 buttons">
+                <div class="col-md-4 offset-4">
+                    <span class="you">YOU</span>
+                    <span id="score">0 - 0</span>
+                    <span class="com">COM</span>
+                </div>
+
+                <button class="bn" onclick="game(this.value)" value="scissors"><i class="far fa-hand-scissors"></i></button>
+                <button class="bn" onclick="game(this.value)" value="rock"><i class="far fa-hand-rock"></i></button>
+                <button class="bn" onclick="game(this.value)" value="paper"><i class="far fa-hand-paper"></i></button>
+            </div>
+        </div>
+        <div id="challenge" class="row text-center mt-5">
+            <div id="yObject" class=" col-md-4"><i class="far fa-hand-scissors"></i></div>
+            <div class="col-md-4"><span>You Win!</span></div>
+            <div id="cObject" class=" col-md-4"><i class="far fa-hand-scissors"></i></div>
+
+
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="js/rps.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
